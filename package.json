@@ -20,19 +20,26 @@
     "test:debug2": "open -a \"Google Chrome\" chrome://inspect && node --nolazy --inspect-brk ./node_modules/jest/bin/jest.js --runInBand --colors --verbose",
     "test": "nodemon --experimental-vm-modules node_modules/jest/bin/jest.js -- --verbose"
   },
-  "license": "ISC",
-  "dependencies": {
-  },
-  "overrides": {
-
-  },
-  "pearDendencies": {
-  },
-  "peerDependenciesMeta": {
-
-  },
+  "license": "AGPL-3.0-or-later",
+  "overrides": {},
+  "pearDendencies": {},
+  "peerDependenciesMeta": {},
   "devDependencies": {
     "jest": "^28.1.3"
   },
-  "transform": {}
+  "transform": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/perymimon/js-tools-belt.git"
+  },
+  "keywords": [
+    "js",
+    "microlibs",
+    "helpers",
+    "collection"
+  ],
+  "bugs": {
+    "url": "https://github.com/perymimon/js-tools-belt/issues"
+  },
+  "homepage": "https://github.com/perymimon/js-tools-belt#readme"
 }
