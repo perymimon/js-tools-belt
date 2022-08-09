@@ -1,0 +1,38 @@
+{
+  "name": "@perymimon/js-tools-belt",
+  "version": "0.1.0",
+  "description": "a collection of micro libs I write to make the life simpler and faster",
+  "author": "Pery Mimon <pery.mimon@gmail.com>",
+  "type": "module",
+  "private": false,
+  "main": "index.js",
+  "files": [
+    "src"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./*": "./src/*.js",
+    "./*.js": "./src/*.js",
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "test:debug": "nodemon --inspect-brk --experimental-vm-modules node_modules/jest/bin/jest.js --runInBand ",
+    "test:debug2": "open -a \"Google Chrome\" chrome://inspect && node --nolazy --inspect-brk ./node_modules/jest/bin/jest.js --runInBand --colors --verbose",
+    "test": "nodemon --experimental-vm-modules node_modules/jest/bin/jest.js -- --verbose"
+  },
+  "license": "ISC",
+  "dependencies": {
+  },
+  "overrides": {
+
+  },
+  "pearDendencies": {
+  },
+  "peerDependenciesMeta": {
+
+  },
+  "devDependencies": {
+    "jest": "^28.1.3"
+  },
+  "transform": {}
+}
