@@ -6,7 +6,7 @@ export * from './src/array/rotate.js'
 
 
 // event
-export * from './src/event/focus-current.js'
+export * from './src/event/no-bubble.js'
 
 
 // object
