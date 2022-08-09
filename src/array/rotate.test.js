@@ -1,4 +1,4 @@
-import {rotateArray} from "./rotate.js";
+import {rotate} from "./rotate.js";
 
 describe('Tests for rotate(Array)', function () {
     test('rotate with k positive less then array.length', function () {

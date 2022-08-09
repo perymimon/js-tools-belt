@@ -1,6 +1,6 @@
 {
   "name": "@perymimon/js-tools-belt",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "a collection of micro libs I write to make the life simpler and faster",
   "author": "Pery Mimon <pery.mimon@gmail.com>",
   "type": "module",

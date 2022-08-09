@@ -1,4 +1,4 @@
-export function rotateArray(array, k) {
+export function rotate(array, k) {
     let len = array.length;
     // normalize the k between 0 to array.length
     let nk =  ((k % len) + len) % len;
